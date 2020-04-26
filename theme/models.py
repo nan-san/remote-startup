@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+class Sort(models.Model):
+    name = models.CharField(max_length=150)
+    Level = models.IntegerField()
+    description = models.TextField()
+    thumbnail = models.ImageField(upload_to='thumbnails/')
