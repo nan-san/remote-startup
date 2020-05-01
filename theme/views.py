@@ -8,3 +8,4 @@ class SortListView(ListView):
     models = Product
     template_name = 'theme/list.html'
     
+ 
