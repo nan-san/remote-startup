@@ -5,5 +5,5 @@ app_name = 'theme'
 
 urlpatterns =[
     path('home/', views.Home.as_view(), name='home'),
-    path('Sorts/', views.SortListView.as_view(), name='sort-list'),
+    path('sorts/', views.SortListView.as_view(), name='sort-data'),
 ]

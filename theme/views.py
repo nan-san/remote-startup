@@ -1,11 +1,11 @@
-from django.views.generic import TemplateView 
+from django.views.generic import TemplateView, ListView
 from .models import Sort
 
 class Home(TemplateView):
-    template_name ='theme/home.html'
+    template_name ='rpg/home.html'
 
 class SortListView(ListView):
-    models = Product
-    template_name = 'theme/list.html'
+    models = Sort
+    template_name = 'rpg/list.html'
     
  
